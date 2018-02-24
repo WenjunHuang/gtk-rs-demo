@@ -1,0 +1,10 @@
+[package]
+name = "gtk-rs-demo"
+version = "0.1.0"
+authors = ["黄文俊 <huangwj@goldlokedu.cn>"]
+
+[dependencies]
+gtk={version="*",features=["v3_22"]}
+gio="*"
+glib="*"
+pango="*"
